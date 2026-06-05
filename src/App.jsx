@@ -113,7 +113,7 @@ const swapCurrencies = ( )=>{
               <button onClick={currencyConverter} className={`button-bg px-5 py-2 rounded text-white text-md text-lg font-bold ${converting? "animate-pulse" : ""}`}>Convert</button>
             </div>
            </div>
-          {converting && (<div className='bg-green text-2xl'>Converted Amount: {convertedAmount}</div>)} 
+          {converting && (<div className='text-rose-500 text-2xl'>Converted Amount: {convertedAmount}</div>)} 
         </div>
     </div>
   )
